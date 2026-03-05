@@ -1,9 +1,9 @@
 # Forest-tree-crown-species-classification-geo-AI
-AI-based tree species mapping using drone imagery and deep learning
 
-# Drone-forest-tree-species-mapping
 
-Automated **tree species mapping from high-resolution drone orthomosaics** using **DINOv2 foundation models** and geospatial deep learning.
+
+Automated **tree species mapping from high-resolution drone orthomosaics** using **Deep learning foundation models** and translation of species labels to Google Earth for geospatial investigation. 
+
 <img width="1466" height="625" alt="Screenshot 2026-03-05 at 4 52 27 PM" src="https://github.com/user-attachments/assets/c2eabd7a-0ec8-489b-b19f-5a2480c80e47" />
 
 
