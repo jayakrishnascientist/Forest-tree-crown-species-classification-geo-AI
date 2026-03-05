@@ -4,7 +4,7 @@
 
 Automated **tree species mapping from high-resolution drone orthomosaics** using **Deep learning foundation models** and translation of species labels to Google Earth for geospatial investigation. 
 
-<img width="1466" height="625" alt="Screenshot 2026-03-05 at 4 52 27 PM" src="https://github.com/user-attachments/assets/c2eabd7a-0ec8-489b-b19f-5a2480c80e47" />
+<img width="1466" height="625" alt="overview" src="https://github.com/user-attachments/assets/a87b39a9-e206-4504-8d09-4c33179894af" />
 
 
 
@@ -34,7 +34,9 @@ The framework integrates **computer vision, geospatial processing, and deep lear
 8-The final output is a species distribution map visualized in Google Earth.
 
 # Dataset Collection and required inputs illustration
-<img width="1446" height="810" alt="Screenshot 2026-03-05 at 4 48 58 PM" src="https://github.com/user-attachments/assets/1b1a66e8-7332-4a7a-a688-dd09f63874f0" />
+
+<img width="1446" height="810" alt="sanjayvan" src="https://github.com/user-attachments/assets/fa89e2e8-cfa1-4cb9-9c80-95435cf65595" />
+
 
 
 # Self-Developed Dataset
