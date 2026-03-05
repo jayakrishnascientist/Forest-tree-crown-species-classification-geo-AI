@@ -207,9 +207,9 @@ Visualization in QGIS / Google Earth
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tree-species-mapping-dinov2.git
+git clone https://github.com/jayakrishnascientist/Forest-tree-crown-species-classification-geo-AI.git
 
-cd tree-species-mapping-dinov2
+cd Forest-tree-crown-species-classification-geo-AI
 ```
 
 Install dependencies:
