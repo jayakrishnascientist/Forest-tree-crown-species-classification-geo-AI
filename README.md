@@ -33,11 +33,11 @@ The framework integrates **computer vision, geospatial processing, and deep lear
 
 8-The final output is a species distribution map visualized in Google Earth.
 
-# Dataset Colleection and required inputs illustration
+# Dataset Collection and required inputs illustration
 <img width="1446" height="810" alt="Screenshot 2026-03-05 at 4 48 58 PM" src="https://github.com/user-attachments/assets/1b1a66e8-7332-4a7a-a688-dd09f63874f0" />
 
 
-# Self Developed Dateset
+# Self-Developed Dataset
 
 Drone orthomosaic images were collected from four survey locations.
 
