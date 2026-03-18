@@ -4,11 +4,17 @@
 
 Automated **tree species mapping from high-resolution drone orthomosaics** using **Deep learning foundation models** and translation of species labels to Google Earth for geospatial investigation. 
 
-<img width="1466" height="625" alt="overview" src="https://github.com/user-attachments/assets/a87b39a9-e206-4504-8d09-4c33179894af" />
+<img width="2040" height="3180" alt="pipeline_diagram" src="https://github.com/user-attachments/assets/02200020-8138-4e7c-ad44-faaa104c40ea" />
 
 
 
-This repository provides pipelines for identifying tree species (Acacia or Non-Acacia) in the Tropical Forest using crown polygons extracted from drone imagery. in both version **supervised** and **unsupervised** **classification**
+This repository provides two dedicated pipelines
+**Scenario 1**
+**Scenario 2**
+
+Both scenarios aim to classify multiple forest species using drone data. Scenario 1 requires ground-truth labels to predict species from the validation set, while Scenario 2 supports classification without ground-truth labels.
+
+The pipeline supports any type of drone data in the orthomosaic.tif extension. In our application, we identified tree species (Acacia or Non-Acacia) in the Tropical Forest using crown polygons extracted from drone imagery. in both version **supervised** and **unsupervised** **classification**
 
 Only two inputs are required (Drone RGB Orthomosaic + Tree crown polygon) automatically processes orthomosaic images, extracts tree crowns, predicts species classes, and generates Google Earth compatible KML maps showing tree species distribution across forest landscapes
 
