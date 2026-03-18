@@ -4,7 +4,7 @@
 
 Automated **tree species mapping from high-resolution drone orthomosaics** using **Deep learning foundation models** and translation of species labels to Google Earth for geospatial investigation. 
 
-<img width="800" height="1000" alt="pipeline_diagram" src="https://github.com/user-attachments/assets/02200020-8138-4e7c-ad44-faaa104c40ea" />
+<img width="800" height="1300" alt="pipeline_diagram" src="https://github.com/user-attachments/assets/02200020-8138-4e7c-ad44-faaa104c40ea" />
 
 
 
