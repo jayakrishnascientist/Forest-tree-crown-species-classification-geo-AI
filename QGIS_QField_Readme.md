@@ -23,7 +23,7 @@ Efficient field workflows require lightweight datasets. Compression reduces file
 
 ## 2. QGIS Project Setup
 
-<img width="800" height="890" alt="step1" src="https://github.com/user-attachments/assets/36f2e2d3-2f96-4140-b342-c3b49f128c3c" />
+<img width="600" height="600" alt="step1" src="https://github.com/user-attachments/assets/36f2e2d3-2f96-4140-b342-c3b49f128c3c" />
 
 ### Steps 2
 - Create a new QGIS project  
@@ -37,9 +37,9 @@ QGIS acts as the central environment where spatial layers are integrated. Correc
 
 ### Steps 3
 ### step 3 (a) adding fields
-<img width="1443" height="855" alt="step2" src="https://github.com/user-attachments/assets/6e4a3036-dfd4-4db7-845c-8c6bca79915e" />
+<img width="600" height="600" alt="step2" src="https://github.com/user-attachments/assets/6e4a3036-dfd4-4db7-845c-8c6bca79915e" />
 ### Step 3 (b) adding atributes
-<img width="1445" height="855" alt="step 3" src="https://github.com/user-attachments/assets/f9516521-654a-4b51-bef9-3c22a013c36d" />
+<img width="600" height="600" alt="step 3" src="https://github.com/user-attachments/assets/f9516521-654a-4b51-bef9-3c22a013c36d" />
 
 Add fields to crown polygon layer:
 
@@ -55,7 +55,7 @@ Add fields to crown polygon layer:
 Set widget types in Attribute Form:
 ### Step 3 (c)  set widgets
 
-<img width="800" height="800" alt="Screenshot 2026-03-18 at 2 00 35 PM" src="https://github.com/user-attachments/assets/727c396a-8662-4113-8b58-6b77f7a52128" />
+<img width="600" height="600" alt="Screenshot 2026-03-18 at 2 00 35 PM" src="https://github.com/user-attachments/assets/727c396a-8662-4113-8b58-6b77f7a52128" />
 
 - species → Value Map (species list)  
 - status → pending / completed  
@@ -68,7 +68,7 @@ Standardized attribute forms reduce human error during field data collection. Va
 ## 4. Visualization and Styling
 ### step 4 Apply rule-based 
 
-<img width="800" height="800" alt="Screenshot 2026-03-18 at 1 59 06 PM" src="https://github.com/user-attachments/assets/a99ece06-c1e0-4927-9881-13272a3648cf" />
+<img width="600" height="600" alt="Screenshot 2026-03-18 at 1 59 06 PM" src="https://github.com/user-attachments/assets/a99ece06-c1e0-4927-9881-13272a3648cf" />
 
 ### Steps
 - Set polygon fill to transparent  
@@ -109,7 +109,7 @@ QField enables in-situ data validation. Integrating GPS with spatial layers allo
 
 ## 7. Collaboration
 ### step 1 set role
-<img width="1470" height="720" alt="Screenshot 2026-03-18 at 2 03 13 PM" src="https://github.com/user-attachments/assets/3f677a63-0ee6-4aaf-83a2-46a86fa672e7" />
+<img width="500" height="500" alt="Screenshot 2026-03-18 at 2 03 13 PM" src="https://github.com/user-attachments/assets/3f677a63-0ee6-4aaf-83a2-46a86fa672e7" />
 
 ### Steps
 - Add contributors in QField Cloud  
@@ -121,7 +121,7 @@ Collaborative editing allows multiple users to collect data simultaneously, sign
 ## 8. Data Synchronization
 
 ### step 8 Always do push changes on mobile
-<img width="1179" height="2556" alt="IMG_0752" src="https://github.com/user-attachments/assets/2870108d-89e5-4a43-8ae1-5b683d6fb814" />
+<img width="300" height="400" alt="IMG_0752" src="https://github.com/user-attachments/assets/2870108d-89e5-4a43-8ae1-5b683d6fb814" />
 
 
 ### Steps
