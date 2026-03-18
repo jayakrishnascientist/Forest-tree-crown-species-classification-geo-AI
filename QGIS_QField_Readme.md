@@ -23,7 +23,7 @@ Efficient field workflows require lightweight datasets. Compression reduces file
 
 ## 2. QGIS Project Setup
 
-<img width="1470" height="890" alt="step1" src="https://github.com/user-attachments/assets/36f2e2d3-2f96-4140-b342-c3b49f128c3c" />
+<img width="600" height="890" alt="step1" src="https://github.com/user-attachments/assets/36f2e2d3-2f96-4140-b342-c3b49f128c3c" />
 
 ### Steps 2
 - Create a new QGIS project  
