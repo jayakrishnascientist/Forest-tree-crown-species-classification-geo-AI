@@ -1,7 +1,7 @@
 # QGIS + QField Workflow for Tree Crown Ground-Truthing
 
 ## Overview
-This project provides a structured workflow for ground-truthing tree crown polygons using QGIS and QField. It integrates remote sensing outputs (e.g., Detectree2) with field-based validation to create accurate, labeled ecological datasets.
+This project provides a structured workflow for ground-truthing tree crown polygons using QGIS and QField. It integrates remote sensing outputs, tree crown species classification, etc., with field-based validation to create accurate, labelled ecological datasets.
 
 ## Workflow Summary
 1. Data Preparation  
@@ -14,7 +14,7 @@ This project provides a structured workflow for ground-truthing tree crown polyg
 
 ## 1. Data Preparation
 
-### Steps
+### Steps 1
 - Compress orthomosaic (OM) raster without altering georeferencing  
 - Convert crown polygons from .geojson to .gpkg  
 - Ensure CRS consistency across all datasets  
@@ -23,7 +23,9 @@ Efficient field workflows require lightweight datasets. Compression reduces file
 
 ## 2. QGIS Project Setup
 
-### Steps
+<img width="1470" height="890" alt="step1" src="https://github.com/user-attachments/assets/36f2e2d3-2f96-4140-b342-c3b49f128c3c" />
+
+### Steps 2
 - Create a new QGIS project  
 - Set project CRS  
 - Load orthomosaic (OM) and crown polygons (GPKG)  
@@ -33,7 +35,12 @@ QGIS acts as the central environment where spatial layers are integrated. Correc
 
 ## 3. Attribute Schema Configuration
 
-### Steps
+### Steps 3
+### step 3 (a) adding fields
+<img width="1443" height="855" alt="step2" src="https://github.com/user-attachments/assets/6e4a3036-dfd4-4db7-845c-8c6bca79915e" />
+### Step 3 (b) adding atributes
+<img width="1445" height="855" alt="step 3" src="https://github.com/user-attachments/assets/f9516521-654a-4b51-bef9-3c22a013c36d" />
+
 Add fields to crown polygon layer:
 
 - crown_id (Integer)  
@@ -46,6 +53,9 @@ Add fields to crown polygon layer:
 
 ### Form Customization
 Set widget types in Attribute Form:
+### Step 3 (c)  set widgets
+
+<img width="1443" height="485" alt="Screenshot 2026-03-18 at 2 00 35 PM" src="https://github.com/user-attachments/assets/727c396a-8662-4113-8b58-6b77f7a52128" />
 
 - species → Value Map (species list)  
 - status → pending / completed  
@@ -56,6 +66,9 @@ Set widget types in Attribute Form:
 Standardized attribute forms reduce human error during field data collection. Value maps enforce controlled vocabularies, ensuring consistent and analyzable datasets.
 
 ## 4. Visualization and Styling
+### step 4 Apply rule-based 
+
+<img width="991" height="213" alt="Screenshot 2026-03-18 at 1 59 06 PM" src="https://github.com/user-attachments/assets/a99ece06-c1e0-4927-9881-13272a3648cf" />
 
 ### Steps
 - Set polygon fill to transparent  
@@ -67,6 +80,12 @@ Standardized attribute forms reduce human error during field data collection. Va
 Visual cues improve field efficiency. Color-coded status helps users quickly identify which trees are already labeled and which require attention.
 
 ## 5. QField Cloud Deployment
+### step 5 (a) after sync project from QGIS  and  check weather its updated in the in cloud project 
+
+<img width="1470" height="547" alt="Screenshot 2026-03-18 at 2 02 57 PM" src="https://github.com/user-attachments/assets/052ee86a-a26e-49c5-8767-92b89c347170" />
+
+### step 5 (a) 
+
 
 ### Steps
 - Create QField Cloud account  
@@ -89,6 +108,8 @@ Cloud synchronization enables seamless data transfer between desktop (QGIS) and 
 QField enables in-situ data validation. Integrating GPS with spatial layers allows precise mapping of ecological attributes directly in the field.
 
 ## 7. Collaboration
+### step 1 set role
+<img width="1470" height="720" alt="Screenshot 2026-03-18 at 2 03 13 PM" src="https://github.com/user-attachments/assets/3f677a63-0ee6-4aaf-83a2-46a86fa672e7" />
 
 ### Steps
 - Add contributors in QField Cloud  
@@ -98,6 +119,10 @@ QField enables in-situ data validation. Integrating GPS with spatial layers allo
 Collaborative editing allows multiple users to collect data simultaneously, significantly speeding up large-scale ecological surveys.
 
 ## 8. Data Synchronization
+
+### step 8 Always do push changes on mobile
+<img width="1179" height="2556" alt="IMG_0752" src="https://github.com/user-attachments/assets/2870108d-89e5-4a43-8ae1-5b683d6fb814" />
+
 
 ### Steps
 - Push updates from QField to Cloud  
@@ -115,6 +140,9 @@ Bidirectional synchronization ensures that field updates are reflected in the ma
 - Optimize raster size for mobile performance  
 
 ## Output
+## download the gpkg file for further analysis
+<img width="760" height="462" alt="Screenshot 2026-03-18 at 2 03 38 PM" src="https://github.com/user-attachments/assets/bf196aa6-22d6-408e-9a7b-a4712575c9d1" />
+
 
 - Fully labeled tree crown dataset  
 - Georeferenced images linked to crowns  
